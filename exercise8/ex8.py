@@ -2,6 +2,8 @@ import unittest
 
 from common import file_utils
 
+# man alive this is the most inefficient implementation ever!
+# that's what I get for trying to do this in between meetings :)
 
 def count_visible(visibility_grid):
     rows, cols = get_grid_dims(visibility_grid)
